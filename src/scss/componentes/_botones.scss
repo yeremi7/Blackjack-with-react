@@ -1,0 +1,144 @@
+  /* Botones */
+  .container_button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-right: 25px;
+    margin-top: 12px;
+
+    /* Boton nuevo Juego */
+    .Nuevo{
+      font-family: 'Source Sans Pro', sans-serif;
+      padding: 5px;
+      border-radius: 5px;
+      font-size: 13px;
+      color: white;
+      background-color: #F44336;
+      border: #F44336 solid 2px; 
+      box-shadow: 0px 1px 2px #E0E0E0;
+  
+      &:hover{
+        background-color: #d1463c;
+        border: #d1463c solid 2px; 
+      }
+      &:active{
+        background-color: #F44336;
+        border: #F44336 solid 2px; 
+      }
+    }
+    
+    /* Boton pedir carta */
+    .Pedir{
+      font-family: 'Source Sans Pro', sans-serif;
+      padding-left: 10px;
+      padding-right: 10px;
+      border-radius: 5px;
+      margin-left: 17px;
+      margin-right: 17px;
+      font-size: 13px;
+      color: white;
+      box-shadow: 0px 1px 2px #E0E0E0;
+      background-color: hsl(120, 43% , 48%);
+      border: hsl(120, 43% , 48%) solid 2px;  
+  
+      &:hover{
+        background-color: #119247;
+        border: #119247 solid 2px; 
+      }
+      &:active{
+        background-color: hsl(120, 43% , 48%);
+        border: hsl(120, 43% , 48%) solid 2px;  
+      }
+    }
+
+    /* Boton detener */
+    .Detener{
+      font-family: 'Source Sans Pro', sans-serif;
+      padding: 5px;
+      border-radius: 5px;
+      font-size: 13px;
+      color: white;
+      box-shadow: 0px 1px 2px #E0E0E0;
+      background-color: hsl(120, 43% , 48%);
+      border: hsl(120, 43% , 48%) solid 2px; 
+      
+      &:hover{
+        background-color: #119247;
+        border: #119247 solid 2px;
+      }
+      &:active{
+        background-color: hsl(120, 43% , 48%);
+        border: hsl(120, 43% , 48%) solid 2px;  
+      }
+    }
+
+    /* Boton jugar al mismo tiempo */
+    .mismoTiempo{
+      font-family: 'Source Sans Pro', sans-serif;
+      margin-left: 17px;
+      padding: 5px;
+      border-radius: 5px;
+      font-size: 13px;
+      color: white;
+      box-shadow: 0px 1px 2px #E0E0E0;
+      background-color: hsl(120, 43% , 48%);
+      border: hsl(120, 43% , 48%) solid 2px; 
+
+      &:hover{
+        background-color: #119247;
+        border: #119247 solid 2px; 
+      }
+      &:active{
+        background-color: hsl(120, 43% , 48%);
+        border: hsl(120, 43% , 48%) solid 2px;  
+      }
+    }
+  }
+  /* Clases para desactivar los botones */
+  .desactivadoNuevo{
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 13px;
+    color: white;
+    background-color: #d1463c;
+    border: #d1463c solid 2px; 
+    box-shadow: 0px 1px 2px #E0E0E0;
+  }
+  .desactivadoDetener{
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #119247;
+    border: #119247 solid 2px;
+    margin: 0px;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 13px;
+    color: white;
+    box-shadow: 0px 1px 2px #E0E0E0; 
+  }
+  .desactivadoPedir{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    margin-left: 17px;
+    margin-right: 17px;
+    font-size: 13px;
+    color: white;
+    box-shadow: 0px 1px 2px #E0E0E0;
+    background-color: #119247;
+    border: #119247 solid 2px;
+  }
+  .desactivadoOpcion2{
+      font-family: 'Source Sans Pro', sans-serif;
+      margin-left: 17px;
+      padding: 5px;
+      border-radius: 5px;
+      font-size: 13px;
+      color: white;
+      box-shadow: 0px 1px 2px #E0E0E0;
+      background-color: #119247;
+      border: #119247 solid 2px;
+  }
+  /* FIN */

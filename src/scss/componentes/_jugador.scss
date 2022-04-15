@@ -1,0 +1,53 @@
+ /* El jugador */
+ .container_jugador{
+    width: 100%;
+    display: flex;
+    padding-left: 2%;
+    margin-top: 2%;
+    flex-direction: column;
+    /* outline: 2px solid red; */
+    height: 235px;
+
+    .puntos_jugador{
+      color: white;
+      font-size: 27px;
+      width: 100%;
+      padding: 10px;
+      font-weight: bold;
+    }
+    .img_jugador{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      width: 100%;
+    }
+    /* .p{
+      width: 30%;
+      outline: 2px solid black;
+      background-color: green;
+      color: white;
+    } */
+  }
+  .container_jugador1{
+    width: 100%;
+    display: flex;
+    padding-left: 2%;
+    margin-top: 2%;
+    flex-direction: column;
+    /* outline: 2px solid red; */
+
+    .puntos_jugador{
+      color: white;
+      font-size: 27px;
+      width: 100%;
+      padding: 10px;
+      font-weight: bold;
+    }
+    .img_jugador{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      width: 100%;
+    }
+  }
+  /* FIN */

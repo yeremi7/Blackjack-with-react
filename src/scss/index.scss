@@ -1,0 +1,18 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: row;
+    background-color: #1B5E20;
+}
+
+@import './componentes/juego';
+@import './componentes/botones';
+@import './componentes/jugador';
+@import './componentes/computadora';
+@import './componentes/mediaQuerys';
+/* @import './componentes/alerta'; */
+

@@ -1,0 +1,43 @@
+ /* La computadora */
+ .container_computadora{
+    width: 100%;
+    display: flex;
+    padding-left: 2%;
+    flex-direction: column;
+    margin-top: 5%;
+    height: 240px;
+    
+    .puntos_computadora{
+      color: white;
+      font-size: 27px;
+      width: 100%;
+      padding: 10px;
+      font-weight: bold;
+    }
+    .img_computadora{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 100%;
+    }
+  }
+  /* FIN */
+
+  /* Animaciones para mostrar las cartas */
+  .cartaInvisible{
+    /* width: 10%; */
+    width: 114px;
+    margin: 5px;
+    opacity: 0;
+  }
+  .cartaVisible{
+    width: 114px;
+    opacity: 1;
+    transition: opacity 1s linear;
+    margin: 5px;
+  }
+  .cartaVisibleCompu{
+    opacity: 1;
+    transition: opacity 1s 0.1S linear;
+  }
+  /* FIN */

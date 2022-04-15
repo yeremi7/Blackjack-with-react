@@ -1,0 +1,280 @@
+ /* medias querys */
+ @media screen and (max-width: 910px){
+    .cartaInvisible{
+      /* width: 13%; */
+      width: 114px;
+      margin: 5px;
+      opacity: 0;
+    }
+    .cartaVisible{
+      width: 114px;
+      opacity: 1;
+      transition: opacity 1s linear;
+    }
+    .cartaVisibleCompu{
+      opacity: 1;
+      transition: opacity 1s 0.1S linear;
+    }
+  }
+  @media screen and (max-width: 740px){
+    .container_jugador{
+      height: 228px;
+    }
+    .cartaInvisible{
+      /* width: 15%; */
+      width: 109px;
+      margin: 5px;
+      opacity: 0;
+    }
+    .cartaVisible{
+      width: 109px;
+      opacity: 1;
+      transition: opacity 1s linear;
+    }
+    .cartaVisibleCompu{
+      opacity: 1;
+      transition: opacity 1s 0.1S linear;
+    }
+  }
+  @media screen and (max-width: 600px){
+    .container_jugador{
+      height: 227px;
+    }
+    .cartaInvisible{
+      /* width: 19%; */
+      width: 109px;
+      margin: 5px;
+      opacity: 0;
+    }
+    .cartaVisible{
+      /* width: 20%; */
+      width: 109px;
+      opacity: 1;
+      transition: opacity 1s linear;
+    }
+    .cartaVisibleCompu{
+      opacity: 1;
+      transition: opacity 1s 0.1S linear;
+    }
+  }
+  @media screen and (max-width: 520px){
+    .container_jugador {
+      height: 221.7px;
+    }
+    .cartaInvisible{
+      /* width: 22%; */
+      width: 105px;
+      margin: 5px;
+      opacity: 0;
+    }
+    .cartaVisible{
+      width: 105px;
+      opacity: 1;
+      transition: opacity 1s linear;
+    }
+    .cartaVisibleCompu{
+      opacity: 1;
+      transition: opacity 1s 0.1S linear;
+    }
+  }
+  @media screen and (max-width: 480px){
+    .cartaInvisible{
+      /* width: 20%; */
+      width: 98px;
+      margin: 5px;
+      opacity: 0;
+    }
+    .cartaVisible{
+      width: 98px;
+      opacity: 1;
+      transition: opacity 1s linear;
+    }
+    .cartaVisibleCompu{
+      opacity: 1;
+      transition: opacity 1s 0.1S linear;
+    }
+    .container_jugador{
+        height: 211px;
+        margin-top: 10%;
+    }
+    .container_jugador1{
+        margin-top: 10%;
+    }
+    .container_computadora{
+      margin-top: 5%;
+    }
+    body{
+        margin-top: 5%;  
+    }
+  }
+  @media screen and (max-width: 420px){
+    .cartaInvisible{
+      /* width: 20%; */
+      width: 94px;
+      margin: 5px;
+      opacity: 0;
+    }
+    .cartaVisible{
+      /* width: 25%; */
+      width: 94px;
+      opacity: 1;
+      transition: opacity 1s linear;
+    }
+    .cartaVisibleCompu{
+      opacity: 1;
+      transition: opacity 1s 0.1S linear;
+    }
+    .container_jugador{
+        height: 205px;
+        margin-top: 10%;
+    }
+    .container_jugador1{
+      margin-top: 10%;
+    }
+    .container_computadora{
+      margin-top: 5%;
+    }
+  }
+  @media screen and (max-width: 370px){
+    .cartaInvisible{
+      /* width: 20%; */
+      width: 88px;
+      margin: 5px;
+      opacity: 0;
+    }
+    .cartaVisible{
+      /* width: 25%; */
+      width: 88px;
+      opacity: 1;
+      transition: opacity 1s linear;
+    }
+    .cartaVisibleCompu{
+      opacity: 1;
+      transition: opacity 1s 0.1S linear;
+    }
+    .container_button {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      padding-right: 0px;
+      margin-top: 26px;
+  }
+    .container_jugador{
+      height: 218px;
+      margin-top: 10%;
+      padding-top: 7%;
+    }
+    .container_jugador1{
+      padding-top: 7%;
+    }
+    .container_computadora{
+      margin-top: 5.1%;
+    }
+    .container_jugador .puntos_jugador {
+      font-size: 25px;
+    }
+    .container_jugador1 .puntos_jugador {
+      font-size: 25px;
+    }
+    .container_computadora .puntos_computadora {
+      font-size: 25px;
+    }
+    .title {
+      font-size: 20px;
+    }
+  }
+  @media screen and (max-width: 350px){
+    .cartaInvisible{
+      /* width: 20%; */
+      width: 88px;
+      margin: 5px;
+      opacity: 0;
+    }
+    .cartaVisible{
+      /* width: 27%; */
+      width: 88px;
+      opacity: 1;
+      transition: opacity 1s linear;
+    }
+    .cartaVisibleCompu{
+      opacity: 1;
+      transition: opacity 1s 0.1S linear;
+    }
+    .container_button {
+      margin-top: 26px;
+    }
+    .container_jugador{
+      height: 215px;
+      margin-top: 11%;
+      padding-top: 7%;
+    }
+    .container_jugador1{
+      margin-top: 11%;
+      padding-top: 7%;
+    }
+    .container_computadora{
+      margin-top: 5%;
+    }
+    .container_button .Nuevo{
+      padding: 4px;
+      font-size: 11px;
+    }
+    .container_button .Pedir{
+      font-size: 11px; 
+    }
+    .container_button .Detener{
+      padding: 4px;
+      font-size: 11px;
+    }
+    .container_button .mismoTiempo{
+      padding: 4px;
+      font-size: 11px;
+    }
+    .desactivadoNuevo{
+      padding: 4px;
+      font-size: 11px;
+    }
+    .desactivadoPedir {
+      font-size: 11px;
+    }
+    .desactivadoDetener {
+      padding: 4px;
+      font-size: 11px;
+    }
+    .desactivadoOpcion2 {
+      padding: 4px;
+      font-size: 11px;
+  }
+  }
+  @media screen and (max-width: 320px){
+    .container_jugador{
+      height: 214px;
+    }
+    .cartaVisible{
+      width: 88px;
+      opacity: 1;
+      transition: opacity 1s linear;
+    }
+    .container_button .Nuevo {
+      padding: 4px;
+    }
+    .container_button .Pedir {
+      padding: 5px;
+    } 
+    .container_button .Detener {
+      padding: 3px;
+    }
+    .container_button .mismoTiempo {
+      padding: 3px;
+    }
+    .desactivadoPedir {
+      font-size: 11px;
+      padding: 5px;
+    }
+    .desactivadoDetener {
+      padding: 3px;
+    }
+    .desactivadoOpcion2 {
+      padding: 3px;
+  }
+  }

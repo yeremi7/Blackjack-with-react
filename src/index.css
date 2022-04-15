@@ -1,0 +1,652 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: #1B5E20;
+}
+
+#root {
+  width: 100%;
+}
+
+.all_small {
+  background-color: #1B5E20;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  color: white;
+  font-size: 21px;
+}
+
+/* Botones */
+.container_button {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-right: 25px;
+  margin-top: 12px;
+  /* Boton nuevo Juego */
+  /* Boton pedir carta */
+  /* Boton detener */
+  /* Boton jugar al mismo tiempo */
+}
+
+.container_button .Nuevo {
+  font-family: 'Source Sans Pro', sans-serif;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 13px;
+  color: white;
+  background-color: #F44336;
+  border: #F44336 solid 2px;
+  -webkit-box-shadow: 0px 1px 2px #E0E0E0;
+          box-shadow: 0px 1px 2px #E0E0E0;
+}
+
+.container_button .Nuevo:hover {
+  background-color: #d1463c;
+  border: #d1463c solid 2px;
+}
+
+.container_button .Nuevo:active {
+  background-color: #F44336;
+  border: #F44336 solid 2px;
+}
+
+.container_button .Pedir {
+  font-family: 'Source Sans Pro', sans-serif;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  margin-left: 17px;
+  margin-right: 17px;
+  font-size: 13px;
+  color: white;
+  -webkit-box-shadow: 0px 1px 2px #E0E0E0;
+          box-shadow: 0px 1px 2px #E0E0E0;
+  background-color: #46af46;
+  border: #46af46 solid 2px;
+}
+
+.container_button .Pedir:hover {
+  background-color: #119247;
+  border: #119247 solid 2px;
+}
+
+.container_button .Pedir:active {
+  background-color: #46af46;
+  border: #46af46 solid 2px;
+}
+
+.container_button .Detener {
+  font-family: 'Source Sans Pro', sans-serif;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 13px;
+  color: white;
+  -webkit-box-shadow: 0px 1px 2px #E0E0E0;
+          box-shadow: 0px 1px 2px #E0E0E0;
+  background-color: #46af46;
+  border: #46af46 solid 2px;
+}
+
+.container_button .Detener:hover {
+  background-color: #119247;
+  border: #119247 solid 2px;
+}
+
+.container_button .Detener:active {
+  background-color: #46af46;
+  border: #46af46 solid 2px;
+}
+
+.container_button .mismoTiempo {
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-left: 17px;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 13px;
+  color: white;
+  -webkit-box-shadow: 0px 1px 2px #E0E0E0;
+          box-shadow: 0px 1px 2px #E0E0E0;
+  background-color: #46af46;
+  border: #46af46 solid 2px;
+}
+
+.container_button .mismoTiempo:hover {
+  background-color: #119247;
+  border: #119247 solid 2px;
+}
+
+.container_button .mismoTiempo:active {
+  background-color: #46af46;
+  border: #46af46 solid 2px;
+}
+
+/* Clases para desactivar los botones */
+.desactivadoNuevo {
+  font-family: 'Source Sans Pro', sans-serif;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 13px;
+  color: white;
+  background-color: #d1463c;
+  border: #d1463c solid 2px;
+  -webkit-box-shadow: 0px 1px 2px #E0E0E0;
+          box-shadow: 0px 1px 2px #E0E0E0;
+}
+
+.desactivadoDetener {
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: #119247;
+  border: #119247 solid 2px;
+  margin: 0px;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 13px;
+  color: white;
+  -webkit-box-shadow: 0px 1px 2px #E0E0E0;
+          box-shadow: 0px 1px 2px #E0E0E0;
+}
+
+.desactivadoPedir {
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  margin-left: 17px;
+  margin-right: 17px;
+  font-size: 13px;
+  color: white;
+  -webkit-box-shadow: 0px 1px 2px #E0E0E0;
+          box-shadow: 0px 1px 2px #E0E0E0;
+  background-color: #119247;
+  border: #119247 solid 2px;
+}
+
+.desactivadoOpcion2 {
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-left: 17px;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 13px;
+  color: white;
+  -webkit-box-shadow: 0px 1px 2px #E0E0E0;
+          box-shadow: 0px 1px 2px #E0E0E0;
+  background-color: #119247;
+  border: #119247 solid 2px;
+}
+
+/* FIN */
+/* El jugador */
+.container_jugador {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 2%;
+  margin-top: 2%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  /* outline: 2px solid red; */
+  height: 235px;
+  /* .p{
+      width: 30%;
+      outline: 2px solid black;
+      background-color: green;
+      color: white;
+    } */
+}
+
+.container_jugador .puntos_jugador {
+  color: white;
+  font-size: 27px;
+  width: 100%;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.container_jugador .img_jugador {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+}
+
+.container_jugador1 {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 2%;
+  margin-top: 2%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  /* outline: 2px solid red; */
+}
+
+.container_jugador1 .puntos_jugador {
+  color: white;
+  font-size: 27px;
+  width: 100%;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.container_jugador1 .img_jugador {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+}
+
+/* FIN */
+/* La computadora */
+.container_computadora {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 2%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 5%;
+  height: 240px;
+}
+
+.container_computadora .puntos_computadora {
+  color: white;
+  font-size: 27px;
+  width: 100%;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.container_computadora .img_computadora {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+}
+
+/* FIN */
+/* Animaciones para mostrar las cartas */
+.cartaInvisible {
+  /* width: 10%; */
+  width: 114px;
+  margin: 5px;
+  opacity: 0;
+}
+
+.cartaVisible {
+  width: 114px;
+  opacity: 1;
+  -webkit-transition: opacity 1s linear;
+  transition: opacity 1s linear;
+  margin: 5px;
+}
+
+.cartaVisibleCompu {
+  opacity: 1;
+  -webkit-transition: opacity 1s 0.1S linear;
+  transition: opacity 1s 0.1S linear;
+}
+
+/* FIN */
+/* medias querys */
+@media screen and (max-width: 910px) {
+  .cartaInvisible {
+    /* width: 13%; */
+    width: 114px;
+    margin: 5px;
+    opacity: 0;
+  }
+  .cartaVisible {
+    width: 114px;
+    opacity: 1;
+    -webkit-transition: opacity 1s linear;
+    transition: opacity 1s linear;
+  }
+  .cartaVisibleCompu {
+    opacity: 1;
+    -webkit-transition: opacity 1s 0.1S linear;
+    transition: opacity 1s 0.1S linear;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .container_jugador {
+    height: 228px;
+  }
+  .cartaInvisible {
+    /* width: 15%; */
+    width: 109px;
+    margin: 5px;
+    opacity: 0;
+  }
+  .cartaVisible {
+    width: 109px;
+    opacity: 1;
+    -webkit-transition: opacity 1s linear;
+    transition: opacity 1s linear;
+  }
+  .cartaVisibleCompu {
+    opacity: 1;
+    -webkit-transition: opacity 1s 0.1S linear;
+    transition: opacity 1s 0.1S linear;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container_jugador {
+    height: 227px;
+  }
+  .cartaInvisible {
+    /* width: 19%; */
+    width: 109px;
+    margin: 5px;
+    opacity: 0;
+  }
+  .cartaVisible {
+    /* width: 20%; */
+    width: 109px;
+    opacity: 1;
+    -webkit-transition: opacity 1s linear;
+    transition: opacity 1s linear;
+  }
+  .cartaVisibleCompu {
+    opacity: 1;
+    -webkit-transition: opacity 1s 0.1S linear;
+    transition: opacity 1s 0.1S linear;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .container_jugador {
+    height: 221.7px;
+  }
+  .cartaInvisible {
+    /* width: 22%; */
+    width: 105px;
+    margin: 5px;
+    opacity: 0;
+  }
+  .cartaVisible {
+    width: 105px;
+    opacity: 1;
+    -webkit-transition: opacity 1s linear;
+    transition: opacity 1s linear;
+  }
+  .cartaVisibleCompu {
+    opacity: 1;
+    -webkit-transition: opacity 1s 0.1S linear;
+    transition: opacity 1s 0.1S linear;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .cartaInvisible {
+    /* width: 20%; */
+    width: 98px;
+    margin: 5px;
+    opacity: 0;
+  }
+  .cartaVisible {
+    width: 98px;
+    opacity: 1;
+    -webkit-transition: opacity 1s linear;
+    transition: opacity 1s linear;
+  }
+  .cartaVisibleCompu {
+    opacity: 1;
+    -webkit-transition: opacity 1s 0.1S linear;
+    transition: opacity 1s 0.1S linear;
+  }
+  .container_jugador {
+    height: 211px;
+    margin-top: 10%;
+  }
+  .container_jugador1 {
+    margin-top: 10%;
+  }
+  .container_computadora {
+    margin-top: 5%;
+  }
+  body {
+    margin-top: 5%;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .cartaInvisible {
+    /* width: 20%; */
+    width: 94px;
+    margin: 5px;
+    opacity: 0;
+  }
+  .cartaVisible {
+    /* width: 25%; */
+    width: 94px;
+    opacity: 1;
+    -webkit-transition: opacity 1s linear;
+    transition: opacity 1s linear;
+  }
+  .cartaVisibleCompu {
+    opacity: 1;
+    -webkit-transition: opacity 1s 0.1S linear;
+    transition: opacity 1s 0.1S linear;
+  }
+  .container_jugador {
+    height: 205px;
+    margin-top: 10%;
+  }
+  .container_jugador1 {
+    margin-top: 10%;
+  }
+  .container_computadora {
+    margin-top: 5%;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .cartaInvisible {
+    /* width: 20%; */
+    width: 88px;
+    margin: 5px;
+    opacity: 0;
+  }
+  .cartaVisible {
+    /* width: 25%; */
+    width: 88px;
+    opacity: 1;
+    -webkit-transition: opacity 1s linear;
+    transition: opacity 1s linear;
+  }
+  .cartaVisibleCompu {
+    opacity: 1;
+    -webkit-transition: opacity 1s 0.1S linear;
+    transition: opacity 1s 0.1S linear;
+  }
+  .container_button {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-right: 0px;
+    margin-top: 26px;
+  }
+  .container_jugador {
+    height: 218px;
+    margin-top: 10%;
+    padding-top: 7%;
+  }
+  .container_jugador1 {
+    padding-top: 7%;
+  }
+  .container_computadora {
+    margin-top: 5.1%;
+  }
+  .container_jugador .puntos_jugador {
+    font-size: 25px;
+  }
+  .container_jugador1 .puntos_jugador {
+    font-size: 25px;
+  }
+  .container_computadora .puntos_computadora {
+    font-size: 25px;
+  }
+  .title {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .cartaInvisible {
+    /* width: 20%; */
+    width: 88px;
+    margin: 5px;
+    opacity: 0;
+  }
+  .cartaVisible {
+    /* width: 27%; */
+    width: 88px;
+    opacity: 1;
+    -webkit-transition: opacity 1s linear;
+    transition: opacity 1s linear;
+  }
+  .cartaVisibleCompu {
+    opacity: 1;
+    -webkit-transition: opacity 1s 0.1S linear;
+    transition: opacity 1s 0.1S linear;
+  }
+  .container_button {
+    margin-top: 26px;
+  }
+  .container_jugador {
+    height: 215px;
+    margin-top: 11%;
+    padding-top: 7%;
+  }
+  .container_jugador1 {
+    margin-top: 11%;
+    padding-top: 7%;
+  }
+  .container_computadora {
+    margin-top: 5%;
+  }
+  .container_button .Nuevo {
+    padding: 4px;
+    font-size: 11px;
+  }
+  .container_button .Pedir {
+    font-size: 11px;
+  }
+  .container_button .Detener {
+    padding: 4px;
+    font-size: 11px;
+  }
+  .container_button .mismoTiempo {
+    padding: 4px;
+    font-size: 11px;
+  }
+  .desactivadoNuevo {
+    padding: 4px;
+    font-size: 11px;
+  }
+  .desactivadoPedir {
+    font-size: 11px;
+  }
+  .desactivadoDetener {
+    padding: 4px;
+    font-size: 11px;
+  }
+  .desactivadoOpcion2 {
+    padding: 4px;
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .container_jugador {
+    height: 214px;
+  }
+  .cartaVisible {
+    width: 88px;
+    opacity: 1;
+    -webkit-transition: opacity 1s linear;
+    transition: opacity 1s linear;
+  }
+  .container_button .Nuevo {
+    padding: 4px;
+  }
+  .container_button .Pedir {
+    padding: 5px;
+  }
+  .container_button .Detener {
+    padding: 3px;
+  }
+  .container_button .mismoTiempo {
+    padding: 3px;
+  }
+  .desactivadoPedir {
+    font-size: 11px;
+    padding: 5px;
+  }
+  .desactivadoDetener {
+    padding: 3px;
+  }
+  .desactivadoOpcion2 {
+    padding: 3px;
+  }
+}
+
+/* @import './componentes/alerta'; */
+/*# sourceMappingURL=index.css.map */
